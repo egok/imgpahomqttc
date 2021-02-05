@@ -14,6 +14,7 @@ RUN apt-get update \
     cmake \
     cmake-gui \
     cmake-curses-gui \
-    libssl-dev
+    libssl-dev \
+    curl
 
 USER ${user}
